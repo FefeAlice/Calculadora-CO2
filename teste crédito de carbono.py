@@ -25,7 +25,7 @@ def final_privado(res):
         print(f"Sua emissão de CO2 é de: {res:.2f}. Por conseguir emitir menos de 5 kg de CO2, você acaba ganhando 15% de desconto na Declaração de Imposto de Renda do ano vigente.")
     else:
         print (f"Sua emissão de CO2 é de: {result:.2f}.")
-        compensacao = input_numero("Por estar acima do recomendável, será necessária compensação por créditos de carbono.\n 1 - Fazenda Ouro Verde - Eunápolis, Bahia \n 2 - Fazenda Belo Horizonte - Potiguará, Bahia \n 3- Entre Rios - Maracaçumé, Maranhão \n 4 - outra forma de compensação de carbono \nEscreva aqui:")
+        compensacao = input_numero("Por estar acima do recomendável, será necessária compensação por créditos de carbono.\n 1 - Fazenda Ouro Verde - Eunápolis, Bahia \n 2 - Fazenda Belo Horizonte - Potiguará, Bahia \n 3 - Entre Rios - Maracaçumé, Maranhão \n 4 - outra forma de compensação de carbono \nEscreva aqui:")
         if compensacao == 4:
             print("Você terá que pagar o valor de R$ 185,00 para uma empresa parceira de sua escolha, entre em contato com o suporte da empresa para emissão de boleto.")
         else:
@@ -39,7 +39,7 @@ def final_publico(res):
         print(f"Sua emissão de CO2 é de: {res:.2f}. Por conseguir emitir menos de 100 kg de CO2 por ônibus, sua empresa terá desconto na compra de créditos de carbono e nos impostos relacionados.")
     else: 
         print (f"Sua emissão de CO2 é de: {result:.2f}.")
-        compensacao = input_numero("Sua frota emitiu mais CO2 do que o recomendável. Devido a isso será cobrado 15% de juros na receita da empresa e será necessária compensação por créditos de carbono.\n 1 - Fazenda Ouro Verde - Eunápolis, Bahia \n 2 - Fazenda Belo Horizonte - Potiguará, Bahia \n 3- Entre Rios - Maracaçumé, Maranhão \n 4 - Outra forma de compensação de carbono \nEscreva aqui:")
+        compensacao = input_numero("Sua frota emitiu mais CO2 do que o recomendável. Devido a isso será cobrado 15% de juros na receita da empresa e será necessária compensação por créditos de carbono.\n 1 - Fazenda Ouro Verde - Eunápolis, Bahia \n 2 - Fazenda Belo Horizonte - Potiguará, Bahia \n 3 - Entre Rios - Maracaçumé, Maranhão \n 4 - Outra forma de compensação de carbono \nEscreva aqui:")
         if compensacao == 4:
             print("Você terá que pagar o valor de R$ 5.000,00 para uma empresa parceira de sua escolha, entre em contato com o suporte da empresa para emissão de boleto.")
         else:
